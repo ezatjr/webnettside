@@ -1,7 +1,26 @@
-h1{
-    color: yellow
+html {
+    font-size: calc(1em + 1vw);
 }
 
-p {
-    color: brown;
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    background-color: white
 }
+
+header h1{
+    margin: 0rem 0 0 0;
+    padding: 0;
+    display:inline-block;
+    font-size: 14px;
+}
+
+#search-icon {
+    position: fixed; /* Still ikonet til en fast posisjon på siden */
+    top: 10px; /* Avstand fra toppen (juster etter behov) */
+    right: 10px; /* Avstand fra høyre kant (juster etter behov) */
+    font-size: 24px; /* Juster størrelsen etter behov */
+    color: #000; /* Juster fargen etter behov */
+    cursor: pointer; /* Gjør ikonet til en peker for brukervennlighet (valgfritt) */
+}
+
