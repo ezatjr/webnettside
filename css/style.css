@@ -6,7 +6,26 @@ body{
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
     background-color: white
+    
 }
+
+
+img {
+    width: 175px; /* Angi ønsket bredde (endre verdien etter behov) */
+    height: 200px; /* Beholder bildets opprinnelige sideforhold */
+    margin-top: 20px;
+
+}
+
+#SKOFOTBALL{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    display: block;
+    background-color: black;
+    color: white;
+}
+
 
 header h1{
     margin: 0rem 0 0 0;
@@ -15,12 +34,13 @@ header h1{
     font-size: 14px;
 }
 
-#search-icon {
-    position: fixed; /* Still ikonet til en fast posisjon på siden */
-    top: 10px; /* Avstand fra toppen (juster etter behov) */
-    right: 10px; /* Avstand fra høyre kant (juster etter behov) */
-    font-size: 24px; /* Juster størrelsen etter behov */
-    color: #000; /* Juster fargen etter behov */
-    cursor: pointer; /* Gjør ikonet til en peker for brukervennlighet (valgfritt) */
+main h1,h2 {
+font-size: 12px; /* Endre skriftstørrelsen */
+ color: black; 
+ /margin-top: 10px; 
 }
 
+    
+    
+    
+    
